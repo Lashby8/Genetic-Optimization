@@ -17,6 +17,7 @@ The way of reproduction a new individual - **single-point crossover**.
 New item gets it's x and y from random parent. Therefore, two parents reproduce one new individual. Each generation should reproduce [Amount of pairs (x,y)] individuals.
 ###### Mutation
 Probability of mutation of each individual is **1%**. I used my own method of mutatuion - algoritm takes one random individual(we'll call it donor), and mutated individual re-count it's values in accord with following formula:
+
 			individual(x) = individual(x) * donor(x) + [random number from 0 to 2π],
 			individual(y) = individual(y) * donor(y) + [random number from 0 to 2π]
 ###### Selection
