@@ -35,6 +35,7 @@ int main()
 		pop->mutation();
 		pop->selection();
 	}
+	pop->~GeneticEmulation();
 
 	_getch();
 	return 0;
@@ -44,6 +45,10 @@ int einOderNull() {
 	return (rand() % 2);
 }
 
-double randFromZeroToTwoPi() {
-	return (double)(rand()) / RAND_MAX*(2*PI);
+double randDoubleFromZeroTo(double limit) {
+	return (double)(rand()) / RAND_MAX * (limit);
+}
+
+int randFromZeroToNumber(int number) {
+	return (int)(rand() % number);
 }

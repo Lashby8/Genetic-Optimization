@@ -1,3 +1,10 @@
 ﻿  GeneticEmulation.cpp
+c:\users\anton\documents\visual studio 2015\projects\genopt\genopt\geneticemulation.cpp(76): warning C4101: isFromPopulation: неиспользованная локальная переменная
+c:\users\anton\documents\visual studio 2015\projects\genopt\genopt\geneticemulation.cpp(100): warning C4101: isFromPopulation: неиспользованная локальная переменная
+c:\users\anton\documents\visual studio 2015\projects\genopt\genopt\geneticemulation.cpp(133): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\anton\documents\visual studio 2015\projects\genopt\genopt\geneticemulation.cpp(139): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\anton\documents\visual studio 2015\projects\genopt\genopt\geneticemulation.cpp(148): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\anton\documents\visual studio 2015\projects\genopt\genopt\geneticemulation.cpp(149): warning C4018: <: несоответствие типов со знаком и без знака
+  LINK : отсутствует база данных C:\Users\Anton\Documents\Visual Studio 2015\Projects\GenOpt\Debug\GenOpt.pdb программы; выполняется полная компоновка
   GenOpt.vcxproj -> C:\Users\Anton\Documents\Visual Studio 2015\Projects\GenOpt\Debug\GenOpt.exe
   GenOpt.vcxproj -> C:\Users\Anton\Documents\Visual Studio 2015\Projects\GenOpt\Debug\GenOpt.pdb (Full PDB)
