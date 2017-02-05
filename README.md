@@ -1,7 +1,7 @@
 # Genetic-Optimization
 ## Overview
 This is pretty simple realization of Evolutionary algorithm, which solves optimization problem of maximizing a function (2 variables).
-Function is *f(x) = Sin(x)\*Cos(y) => max* currently. x = [0, 2π], y = [0, 2π].
+Function is *f(x) = Sin(x)Cos(y) => max* currently. x = [0, 2π], y = [0, 2π].
 ## Usage
 Clone this repo, then launch the project. Algoritm ask you next variables:
 Amount of pairs (x,y) (positive number) - amount of items in each population.
